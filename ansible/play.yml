@@ -1,0 +1,11 @@
+---
+- name: Install Nginx and Epel 
+  hosts: ec2-instance
+  become: true
+  become_method: sudo
+  become_user: root
+  #remote_user: ansible
+
+  roles:
+    - epel
+    - nginx
