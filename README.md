@@ -17,7 +17,7 @@
 1. Переходим в папку /var/tmp для копирования репозитория:<br>
 	cd /var/tmp/<br>
 2. Копируем репозиторий:<br>
-	git clone https://github.com/ansible-deploy/public.git<br>
+	git clone https://github.com/ansible-deploy/pub.git<br>
 3. Копируем папку "ansible" с заменой всех файлов в /etc:<br>
 	cp -r ansible/ /etc/<br>
 4. Переходим в папку /etc/ansible/<br>
