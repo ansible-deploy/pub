@@ -19,6 +19,7 @@
 2. Копируем репозиторий:<br>
 	git clone https://github.com/ansible-deploy/pub.git<br>
 3. Копируем папку "ansible" с заменой всех файлов в /etc:<br>
+	cd pub/<br>
 	cp -r ansible/ /etc/<br>
 4. Переходим в папку /etc/ansible/<br>
 	cd /etc/ansible<br>
@@ -31,6 +32,7 @@
 8. Открываем вторую консоль, для просмотра лога:<br> 
 Вставляем команду<br>
 	tail -f /etc/ansible/deploy.log<br>
+!!!ВСТАВИТЬ КЛЮЧИ vi /etc/ansible/terraform.tf<br>
 9. Запускаем скрипт:<br>
 	/etc/ansible/start.sh<br> 
 10. Ждем указаний автоответчика из лога.<br>
