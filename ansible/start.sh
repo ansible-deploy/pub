@@ -20,6 +20,7 @@ echo "Подключение до инстанса активно" >> /etc/ansib
 sleep 5
 echo "Запускаю установку nginx" >> /etc/ansible/deploy.log
 /usr/bin/ansible-playbook /etc/ansible/play.yml >> /etc/ansible/deploy.log
+echo "Ждем 20 секунд" >> /etc/ansible/deploy.log
 sleep 20
 echo "Получаю ответ от сервера" >> /etc/ansible/deploy.log
 abc=`cat /etc/ansible/public_ip`
