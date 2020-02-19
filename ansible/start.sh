@@ -10,7 +10,7 @@ echo "Разворачиваю истанс" >> /etc/ansible/deploy.log
 /etc/ansible/terraform apply -auto-approve >> /etc/ansible/deploy.log
 echo "ждем 100 секунд" >> /etc/ansible/deploy.log
 sleep 100
-echo "Генерирую ip adress" >> /etc/ansible/deploy.log
+echo "Генерирую ip address" >> /etc/ansible/deploy.log
 /etc/ansible/public_ip_dns.sh
 echo "Ждем 5 секунд" >> /etc/ansible/deploy.log
 sleep 5
