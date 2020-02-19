@@ -8,8 +8,8 @@ echo "Выполняю инициалицию terraform init" >> /etc/ansible/de
 /etc/ansible/terraform init >> /etc/ansible/deploy.log
 echo "Разворачиваю истанс" >> /etc/ansible/deploy.log
 /etc/ansible/terraform apply -auto-approve >> /etc/ansible/deploy.log
-echo "ждем 10 секунд" >> /etc/ansible/deploy.log
-sleep 10
+echo "ждем 100 секунд" >> /etc/ansible/deploy.log
+sleep 100
 echo "Генерирую ip adress" >> /etc/ansible/deploy.log
 /etc/ansible/public_ip_dns.sh
 echo "Ждем 5 секунд" >> /etc/ansible/deploy.log
@@ -20,7 +20,7 @@ echo "Подключение до инстанса активно" >> /etc/ansib
 sleep 5
 echo "Запускаю установку nginx" >> /etc/ansible/deploy.log
 /usr/bin/ansible-playbook /etc/ansible/play.yml >> /etc/ansible/deploy.log
-sleep 10
+sleep 60
 echo "Получаю ответ от сервера" >> /etc/ansible/deploy.log
 abc=`cat /etc/ansible/public_ip`
 echo `/usr/bin/curl $abc`
