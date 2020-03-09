@@ -1,1 +1,1 @@
-<h2>Tetsitng repo</h2>
+<h2>Test repo</h2>
