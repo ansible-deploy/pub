@@ -1,4 +1,5 @@
   <h3>Простой сервер идентификационных пиктограмм на основе программы monsterid Кевина Годена.</h3>
+  [Image alt](https://github.com/ansible-deploy/pub/blob/master/docker/image.png)
   docker-compose build<br>
   docker-compose up -d<br>
   docker ps -a<br>
