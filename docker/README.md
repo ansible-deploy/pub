@@ -1,5 +1,4 @@
-  <h2>Simple identicon server based on monsterid from Kevin Gaudin.</h2>
-  <h2>From "Using Docker" by Adrian Mouat published by O'Reilly Media.</h2>
+  <h3>Простой сервер идентификационных пиктограмм на основе программы monsterid Кевина Годена.</h3>
   docker-compose build<br>
   docker-compose up -d<br>
   docker ps -a<br>
