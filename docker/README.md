@@ -1,5 +1,6 @@
+  
+  ![image](https://user-images.githubusercontent.com/61209290/76253530-6bf6ec80-627d-11ea-9fe8-173a50656696.png)
   <h3>Простой сервер идентификационных пиктограмм на основе программы monsterid Кевина Годена.</h3>
-  ![image](https://user-images.githubusercontent.com/61209290/76253530-6bf6ec80-627d-11ea-9fe8-173a50656696.png) <br>
   docker-compose build<br>
   docker-compose up -d<br>
   docker ps -a<br>
