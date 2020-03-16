@@ -1,0 +1,13 @@
+
+dnmonster: 
+  image: "amouat/dnmonster:1.0"
+redis:
+  image: "redis:3.0"
+identidock: 
+  build: "."
+  - "9090"
+  environment: 
+    ENV: PROD
+  links:
+   - dnmonster
+   - redis 
